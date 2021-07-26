@@ -2,12 +2,18 @@ title: Pangolog
 email: dennis@schuppentier.org
 description: >- 
   Einrollen statt aufregen!
-baseurl: "/"
+baseurl: ""
 url: "https://www.schuppentier.org"
 twitter_username: dasschuppentier
 github_username:  dstengele
 
-theme: minima
+remote_theme: chesterhow/tale
+
+permalink:    /:year-:month-:day/:title
+paginate:     5
+
 plugins:
+  - jekyll-paginate
+  - jekyll-remote-theme
   - jekyll-feed
 
