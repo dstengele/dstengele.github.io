@@ -6,6 +6,8 @@ baseurl: ""
 url: "https://www.schuppentier.org"
 twitter_username: dasschuppentier
 github_username:  dstengele
+author:
+  name: Dennis
 
 remote_theme: chesterhow/tale
 
